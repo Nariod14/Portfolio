@@ -25,7 +25,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">Dorian Germain</div>
         </Link>
 
         {/* Web Navbar */}
@@ -53,7 +53,7 @@ export const Navbar = () => {
           </div>
         </div>
 
-        {/* Social Icons (Web) */}
+        {/* Social Icons (Web)
         <div className="hidden md:flex flex-row gap-5">
           {SOCIALS.map(({ link, name, icon: Icon }) => (
             <Link
@@ -65,7 +65,7 @@ export const Navbar = () => {
               <Icon className="h-6 w-6 text-white" />
             </Link>
           ))}
-        </div>
+        </div> */}
 
         {/* Hamburger Menu */}
         <button
@@ -102,7 +102,7 @@ export const Navbar = () => {
             </Link>
           </div>
 
-          {/* Social Icons */}
+          {/* Social Icons
           <div className="flex justify-center gap-6 mt-6">
             {SOCIALS.map(({ link, name, icon: Icon }) => (
               <Link
@@ -114,7 +114,7 @@ export const Navbar = () => {
                 <Icon className="h-8 w-8 text-white" />
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
       )}
     </div>

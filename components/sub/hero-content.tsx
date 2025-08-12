@@ -9,6 +9,7 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/lib/motion";
+import Link from "next/link";
 
 export const HeroContent = () => {
   return (
@@ -33,11 +34,11 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing{" "}
+            Greetings! I&apos;m{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              the best
+              Dorian Germain
             </span>{" "}
-            project experience.
+            and Welcome to my Portfolio
           </span>
         </motion.div>
 
@@ -45,16 +46,18 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Greetings! I&apos;m a Full Stack Software Developer with experience in Web,
+          Mobile, and Backend development. Please, peruse my portfolio to learn more about my work.
         </motion.p>
 
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn more
-        </motion.a>
+        <Link href="#projects">
+          <motion.div
+            variants={slideInFromLeft(1)}
+            className="py-2 text-xl button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          >
+            My Projects
+          </motion.div>
+        </Link>
       </div>
 
       <motion.div
