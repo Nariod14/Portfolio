@@ -46,7 +46,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Greetings! I&apos;m a Full Stack Software Developer with experience in Web,
+          I&apos;m a Full Stack Software Developer with experience in Web,
           Mobile, and Backend development. Please, peruse my portfolio to learn more about my work.
         </motion.p>
 

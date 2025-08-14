@@ -262,7 +262,7 @@ export const PROJECTS = [
     title: "Eve Online Manufacturing Optimizer",
     description:
       'EVE Online Manufacturing Optimizer (EMO) is a standalone web-based application built to assist industrialists in optimizing their manufacturing chains. Designed for use with real in-game data, the tool helps manage blueprints, track materials, interface with ESI, and calculate the most profitable production plans all from a responsive and intuitive UI.',
-    image: "/projects/project-1.png",
+    image: "/projects/EMOCrop.png",
     link: "https://github.com/Nariod14/EVE-Online-Manufacturing-Optimizer",
   },
   // {
