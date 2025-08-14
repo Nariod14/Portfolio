@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const siteConfig: Metadata = {
   title: "Dorian Germain | Portfolio",
-  description: "Welcome to Dorian Germain'sportfolio.",
+  description: "Welcome to Dorian Germain's portfolio.",
   keywords: [
     "reactjs",
     "nextjs",
