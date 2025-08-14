@@ -262,23 +262,23 @@ export const PROJECTS = [
     title: "Eve Online Manufacturing Optimizer",
     description:
       'EVE Online Manufacturing Optimizer (EMO) is a standalone web-based application built to assist industrialists in optimizing their manufacturing chains. Designed for use with real in-game data, the tool helps manage blueprints, track materials, interface with ESI, and calculate the most profitable production plans all from a responsive and intuitive UI.',
-    image: "/projects/EMOCrop.png",
+    image: "/projects/EMO.png",
     link: "https://github.com/Nariod14/EVE-Online-Manufacturing-Optimizer",
   },
-  // {
-  //   title: "Interactive Cards Portfolio",
-  //   description:
-  //     'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-  //   image: "/projects/project-2.png",
-  //   link: "https://example.com",
-  // },
-  // {
-  //   title: "Space Themed Website",
-  //   description:
-  //     'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-  //   image: "/projects/project-3.png",
-  //   link: "https://example.com",
-  // },
+  {
+    title: "Beach Bluenoser",
+    description:
+      "An Android application providing real-time beach conditions and information for Halifax, Nova Scotia. Built with Firebase for seamless data synchronization and live updates, the app delivers optimized performance with reduced latency and enhanced user experience. Features include current weather conditions, water quality updates, and beach amenities information.",
+    image: "/projects/BeachBluenoser.png",
+    link: "https://github.com/Nariod14/BeachBluenoser",
+  },
+  {
+    title: "SideWork",
+    description:
+      "An Android app that connects users with nearby odd-job and gig opportunities through geolocation-powered recommendations. It features a reliable Firebase-backed backend for real-time job postings and user matching, coupled with rigorous testing to ensure smooth performance across a wide range of devices.",
+    image: "/projects/sideWork.png", 
+    link: "https://github.com/Nariod14/SideWork",
+  },
 ] as const;
 
 export const FOOTER_DATA = [
@@ -361,5 +361,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/Nariod14",
 };
